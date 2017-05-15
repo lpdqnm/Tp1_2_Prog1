@@ -1,0 +1,187 @@
+Ce programme permet de construire et modifier un horaire de cours.
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 2
+
+******************************
+SUPPRIMER UN COURS A L'HORAIRE
+******************************
+
+L'horaire ne contient aucun cours.
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 1
+
+****************************
+AJOUTER UN COURS A L'HORAIRE
+****************************
+
+Sigle du cours : inf1120
+Jour du cours : mardi
+Moment du jour de ce cours : soir
+Groupe du cours : 22
+Ce cours comprend-il une periode de laboratoire (oui ou non) ? oui
+Jour du laboratoire : lundi
+Moment du jour de ce laboratoire : soir
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 1
+
+****************************
+AJOUTER UN COURS A L'HORAIRE
+****************************
+
+Sigle du cours : inf1130
+Jour du cours : mercredi
+Moment du jour de ce cours : pm
+Groupe du cours : 30
+Ce cours comprend-il une periode de laboratoire (oui ou non) ? oui
+Jour du laboratoire : vendredi
+Moment du jour de ce laboratoire : pm
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 2
+
+******************************
+SUPPRIMER UN COURS A L'HORAIRE
+******************************
+
+Sigle du cours : inf444444
+
+Erreur, le sigle du cours doit etre compose de 3 lettres suivies de 4 chiffres...
+Sigle du cours : inf2323
+
+OPERATION ANNULEE.
+Ce cours n'est pas a l'horaire.
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 3
+
+*******
+HORAIRE
+*******
+
+===============================================================================
+|           | MATIN               | APRES-MIDI          | SOIREE              |
+===============================================================================
+| LUNDI     |                     |                     | INF1120-22 (LABO)   |
+-------------------------------------------------------------------------------
+| MARDI     |                     |                     | INF1120-22 (COURS)  |
+-------------------------------------------------------------------------------
+| MERCREDI  |                     | INF1130-30 (COURS)  |                     |
+-------------------------------------------------------------------------------
+| JEUDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| VENDREDI  |                     | INF1130-30 (LABO)   |                     |
+===============================================================================
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 2
+
+******************************
+SUPPRIMER UN COURS A L'HORAIRE
+******************************
+
+Sigle du cours : INF1130
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 3
+
+*******
+HORAIRE
+*******
+
+===============================================================================
+|           | MATIN               | APRES-MIDI          | SOIREE              |
+===============================================================================
+| LUNDI     |                     |                     | INF1120-22 (LABO)   |
+-------------------------------------------------------------------------------
+| MARDI     |                     |                     | INF1120-22 (COURS)  |
+-------------------------------------------------------------------------------
+| MERCREDI  |                     |                     |                     |
+-------------------------------------------------------------------------------
+| JEUDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| VENDREDI  |                     |                     |                     |
+===============================================================================
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 5
+
+
+FIN NORMALE DU PROGRAMME.
+

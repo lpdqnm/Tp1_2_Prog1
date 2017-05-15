@@ -1,0 +1,242 @@
+Ce programme permet de construire et modifier un horaire de cours.
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 4
+
+**********************************
+EFFACER TOUS LES COURS A L'HORAIRE
+**********************************
+
+L'horaire ne contient aucun cours.
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 1
+
+****************************
+AJOUTER UN COURS A L'HORAIRE
+****************************
+
+Sigle du cours : inf1120
+Jour du cours : jeudi
+Moment du jour de ce cours : am
+Groupe du cours : 40
+Ce cours comprend-il une periode de laboratoire (oui ou non) ? oui
+Jour du laboratoire : vendredi
+Moment du jour de ce laboratoire : am
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 1
+
+****************************
+AJOUTER UN COURS A L'HORAIRE
+****************************
+
+Sigle du cours : his1224
+Jour du cours : lundi
+Moment du jour de ce cours : soir
+Groupe du cours : 12
+Ce cours comprend-il une periode de laboratoire (oui ou non) ? non
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 1
+
+****************************
+AJOUTER UN COURS A L'HORAIRE
+****************************
+
+Sigle du cours : inf1444
+Jour du cours : mercredi
+Moment du jour de ce cours : pm
+Groupe du cours : 30
+Ce cours comprend-il une periode de laboratoire (oui ou non) ? oui
+Jour du laboratoire : lundi
+Moment du jour de ce laboratoire : pm
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 3
+
+*******
+HORAIRE
+*******
+
+===============================================================================
+|           | MATIN               | APRES-MIDI          | SOIREE              |
+===============================================================================
+| LUNDI     |                     | INF1444-30 (LABO)   | HIS1224-12 (COURS)  |
+-------------------------------------------------------------------------------
+| MARDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| MERCREDI  |                     | INF1444-30 (COURS)  |                     |
+-------------------------------------------------------------------------------
+| JEUDI     | INF1120-40 (COURS)  |                     |                     |
+-------------------------------------------------------------------------------
+| VENDREDI  | INF1120-40 (LABO)   |                     |                     |
+===============================================================================
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 4
+
+**********************************
+EFFACER TOUS LES COURS A L'HORAIRE
+**********************************
+
+Voulez-vous vraiment supprimer tous les cours de cet horaire (OUI ou NON) ? O
+
+Repondez par OUI ou par NON...
+Voulez-vous vraiment supprimer tous les cours de cet horaire (OUI ou NON) ? N
+
+Repondez par OUI ou par NON...
+Voulez-vous vraiment supprimer tous les cours de cet horaire (OUI ou NON) ? non
+
+OPERATION ANNULEE.
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 3
+
+*******
+HORAIRE
+*******
+
+===============================================================================
+|           | MATIN               | APRES-MIDI          | SOIREE              |
+===============================================================================
+| LUNDI     |                     | INF1444-30 (LABO)   | HIS1224-12 (COURS)  |
+-------------------------------------------------------------------------------
+| MARDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| MERCREDI  |                     | INF1444-30 (COURS)  |                     |
+-------------------------------------------------------------------------------
+| JEUDI     | INF1120-40 (COURS)  |                     |                     |
+-------------------------------------------------------------------------------
+| VENDREDI  | INF1120-40 (LABO)   |                     |                     |
+===============================================================================
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 4
+
+**********************************
+EFFACER TOUS LES COURS A L'HORAIRE
+**********************************
+
+Voulez-vous vraiment supprimer tous les cours de cet horaire (OUI ou NON) ? OUI
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 3
+
+*******
+HORAIRE
+*******
+
+===============================================================================
+|           | MATIN               | APRES-MIDI          | SOIREE              |
+===============================================================================
+| LUNDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| MARDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| MERCREDI  |                     |                     |                     |
+-------------------------------------------------------------------------------
+| JEUDI     |                     |                     |                     |
+-------------------------------------------------------------------------------
+| VENDREDI  |                     |                     |                     |
+===============================================================================
+
+
+Appuyez sur "ENTREE" pour continuer...
+
+----
+MENU
+----
+1. AJOUTER UN COURS A L'HORAIRE
+2. SUPPRIMER UN COURS A L'HORAIRE
+3. VISUALISER L'HORAIRE
+4. EFFACER TOUS LES COURS A L'HORAIRE
+5. QUITTER LE PROGRAMME
+
+ENTREZ VOTRE CHOIX : 5
+
+
+FIN NORMALE DU PROGRAMME.
+
