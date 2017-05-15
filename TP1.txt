@@ -1,0 +1,156 @@
+===============================================================================
+NOM  COMPLET   : Quenum, Léopold Aurélien
+CODE PERMANENT : QUEL16107105
+===============================================================================
+
+-----------
+EXERCICE 1
+-----------
+
+debut
+
+	//Constantes
+	MSG_PRE <- "Ce programme calcule les points gagnes selon la somme de 5 des
+		lances."
+	MSG_SOL <- "Entrez la somme des 5 des : "
+	MSG_ERR <- "Erreur ! ... La somme des 5 des est comprise entre 5 et 30, 
+		inclusivement"
+	MSG_FIN <- "Fin normale du programme"
+	SOM_MIN <- 5
+	SOM_MAX <- 30
+	SOM_LIM1 <- 13
+	SOM_LIM2 <- 22
+	MSG_POINTS_GAGNES <- "Point(s) gagne(s) : "
+	
+	Afficher MSG_PRE
+	Afficher MSG_SOL
+	Lire somme
+	
+	SI somme < SOM_MIN ou somme > SOM_MAX ALORS
+		Afficher MSG_ERR
+	SINON
+		SI somme mod 2 = 0 ALORS
+			SI somme < SOM_LIM1 ALORS
+				pointsGagnes <- somme / 4
+			SINON SI somme >= SOM_LIM1 et somme <= SOM_LIM2 ALORS
+				pointsGagnes <- somme / 2
+			SINON
+				pointsGagnes <- somme
+			FIN SI
+		SINON
+			pointsGagnes <- 1
+		FIN SI
+		
+		SI somme mod 5 = 0 ALORS
+			pointsGagnes <- 5 * pointsGagnes
+		FIN SI
+	FIN SI
+	
+	Afficher MSG_POINTS_GAGNES + somme
+	Afficher MSG_FIN
+
+fin
+
+
+-----------
+EXERCICE 2
+-----------
+
+debut
+
+	//Constantes
+	MSG_PRE <- "Ce programme calcule des statistiques sur une suite d'entiers."
+	MSG_SOL <- "Entrez un nombre entier > 0 (ou 0 pour terminer) : "
+	MSG_ERR <- "Erreur... Recommencez !"
+	
+	MSG_STAT <- "STATISTIQUES"
+	MSG_NBR_ENTREES_VALIDES <- "Nombre(s) saisi(s) : "
+	MSG_SOM <- "Somme : "
+	MSG_NBR_MULTIPLES_5 <- "Multiple(s) de 5 : "
+	MSG_FIN <- "Fin normale du programme"
+	
+	//Initialisation de variables
+	comteurEntiers <- 0
+	sommeEntiers <- 0
+	compteurMultiples5 <- 0
+	
+	Afficher MSG_PRE
+	
+	Afficher MSG_SOL
+	Lire nbrSaisi
+		
+	TANT QUE nbrSaisi /= 0 FAIRE
+		SI nbrSaisi < 0 ALORS
+			Afficher MSG_ERR
+		FIN SI
+		
+		SI nbrSaisi > 0 ALORS
+			comteurEntiers <- comteurEntiers + 1
+			sommeEntiers <- sommeEntiers + nbrSaisi
+			
+			SI nbrSaisi mod 5 = 0 ALORS
+				compteurMultiples5 <- compteurMultiples5 + 1
+			FIN SI
+		FIN SI
+		
+		Afficher MSG_SOL
+		Lire nbrSaisi
+	FIN TANT QUE
+	
+	Afficher MSG_STAT
+	
+	Afficher MSG_NBR_ENTREES_VALIDES + comteurEntiers
+	Afficher MSG_SOM + sommeEntiers
+	Afficher MSG_NBR_MULTIPLES_5 + compteurMultiples5
+	
+	Afficher MSG_FIN
+	
+fin
+
+
+-----------
+EXERCICE 3
+-----------
+
+debut
+
+	//Constantes
+	MSG_PRE <- "Ce programme calcule les taxes sur un montant donne."
+	MSG_SOL <- "Entrez un montant : "
+	MSG_ERR_MONTANT <- "Erreur. Impossible de calculer les taxes sur un
+		montant negatif."
+	MSG_SOL_AUTRE <- "Entrer un autre montant (O)ui ou (N)on ? "
+	MSG_ERR_REP <- "Erreur. Vous devez entrer O ou N. Recommencez..."
+	MSG_FIN <- "AUREVOIR"
+	TAUX_TPS <- 0.05
+	TAUX_TVQ <- 0.09975
+	
+	
+	Afficher MSG_PRE
+		
+	FAIRE
+		Afficher MSG_SOL
+		Lire montant
+		
+		SI montant < 0 ALORS
+			Afficher MSG_ERR_MONTANT
+		SINON
+			Afficher "TPS: " + montant * TAUX_TPS
+			Afficher "TVQ: " + montant * TAUX_TVQ
+		FIN SI
+		
+		FAIRE
+			Afficher MSG_SOL_AUTRE
+			Lire reponse
+			
+			SI reponse /= 'O' et reponse /= 'o' et reponse /= 'N' et 
+				reponse /= 'n' ALORS
+				Afficher MSG_ERR_REP
+			FIN SI
+		TANT QUE reponse /= 'O' et reponse /= 'o' et reponse /= 'N' et
+			reponse /= 'n'
+	TANT QUE reponse = 'O' ou reponse = 'o'
+	
+	Afficher MSG_FIN
+	
+fin
